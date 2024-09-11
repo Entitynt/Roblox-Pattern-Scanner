@@ -1,7 +1,10 @@
 # Roblox Pattern Scanner
 
-Hello I am new to c++ I have not had much IDA experience yes it is a terrible code but it is a very simple project if beginners do not skid and make an effort to understand it.
-Thanks to zayn here for explaining the address system and thanks to usrdottik for helping me find Fireproximityprompt.
+Hey, I'm new to C++ and don't have much experience with IDA yet. I know the code isn't perfect, but it's a simple project that can help beginners learn if they take the time to understand it instead of just copying it. Thanks to Zayn for explaining the address system, and to usrdottik for helping me find FireProximityPrompt.
+
+## What is Pattern Scanning?
+
+Pattern scanning is a method used to search through memory for a specific sequence of bytes (usually in hexadecimal format). It's commonly used in game hacking and reverse engineering to find certain functions or data structures. Patterns often include wildcards (?) to account for parts of the memory that might change. The code below is a basic implementation of pattern scanning in C++
 
 # Debugging
 -Release x64
