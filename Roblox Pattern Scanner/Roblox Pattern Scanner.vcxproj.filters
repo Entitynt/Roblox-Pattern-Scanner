@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{482ea4d7-3fc5-42b3-a952-9ef0d505130b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{1daec2a4-f9ae-4397-aba6-883574ddef0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NTDLL">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Driver">
+      <UniqueIdentifier>{2f3d7db0-7917-420c-979b-349c4ab4d354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scanner">
+      <UniqueIdentifier>{83fcc2e9-7d03-47b5-9376-23cef3d2a56e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NtDLL\NTDLL.cpp">
+      <Filter>Source\NTDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\Driver.cpp">
+      <Filter>Source\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner\Scanner.cpp">
+      <Filter>Source\Scanner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NtDLL\NTDLL.h">
+      <Filter>Source\NTDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\Driver.h">
+      <Filter>Source\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner\Scanner.hpp">
+      <Filter>Source\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="NtDLL\Xor.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

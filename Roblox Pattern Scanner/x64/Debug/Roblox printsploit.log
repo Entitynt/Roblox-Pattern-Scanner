@@ -1,0 +1,9 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  Driver.cpp
+  ntdll_fast.cpp
+  Roblox printsploit.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+Roblox printsploit.obj : error LNK2019: unresolved external symbol __imp__invalid_parameter referenced in function "void * __cdecl std::_Allocate<16,struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+Roblox printsploit.obj : error LNK2019: unresolved external symbol __imp__CrtDbgReport referenced in function "void * __cdecl std::_Allocate<16,struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+C:\Users\Win10\source\repos\Roblox printsploit\x64\Debug\Roblox printsploit.exe : fatal error LNK1120: 2 unresolved externals
