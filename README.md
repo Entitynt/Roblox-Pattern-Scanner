@@ -1,5 +1,7 @@
 # Roblox Pattern Scanner
 
+I don't accept no responsibility!
+
 Hey, I'm new to C++ and don't have much experience with IDA yet. I know the code isn't perfect, but it's a simple project that can help beginners learn if they take the time to understand it instead of just copying it. Thanks to Zayn for explaining the address system, and to usrdottik for helping me find FireProximityPrompt.
 
 ## What is Pattern Scanning?
